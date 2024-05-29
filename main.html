@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loom games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Looommm</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <div class="background-text">Director:NOUSHID YOUSUF....Producer:Mohammed Sabique...</div>
+            <h2>Welcome to FW</h2>
+            <p>Your ultimate gaming destination</p>
+            <a href="#games" class="btn">Explore Games</a>
+        </div>
+    </section>
+    <section id="games">
+        <h2>Our Games</h2>
+        <div class="game-list">
+            <!-- Add game items here -->
+            <div id="simple-platformer-game">
+                <canvas id="gameCanvas" width="800" height="400"></canvas>
+            </div>
+        </div>
+    </section>
+    <section id="dino-game">
+        <h2>Dino Game</h2>
+        <div class="game">
+            <canvas id="dinoGameCanvas" width="800" height="200"></canvas>
+        </div>
+    </section>    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about Funky Wolves and our mission.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 loom entertaiments. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script src="game.js"></script>
+    <script src="dino.js"></script>
+</body>
+</html>
